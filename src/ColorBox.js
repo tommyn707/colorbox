@@ -59,9 +59,9 @@ const BoxGenerator = () => {
             <form>
                 <label>Color</label>
                 <input type="text" name="color" value={state.color} onChange={onChangeHandler}/> <br/>
-                <label>Height (in pixels)</label>
+                <label>Height</label>
                 <input type="number" name="height" value={state.height} onChange={onChangeHandler}/> <br/>
-                <label>Width (in pixels)</label>
+                <label>Width</label>
                 <input type="number" name="width" value={state.width} onChange={onChangeHandler}/> <br/>
                 <input type="submit" value="Add" onClick={onSubmitHandler}/>
             </form>
