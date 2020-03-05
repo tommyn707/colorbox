@@ -23,9 +23,6 @@ const BoxGenerator = () => {
         })
     }
 
-    const clearForm = event => {
-        event.preventDefault();
-    }
     const onSubmitHandler = event => {
         event.preventDefault();
         let curColors = state.colors;
